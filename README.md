@@ -13,7 +13,7 @@ This solution requires three components to run:
 
 ## Streamdeck Plugin Setup
 
-Download the [latest plugin version](/releases/latest/download/org.pozil.restream.streamDeckPlugin).
+Download the [latest plugin version](https://github.com/pozil/streamdeck-restream-plugin/releases/latest/download/org.pozil.restream.streamDeckPlugin).
 
 Install the plugin.
 
