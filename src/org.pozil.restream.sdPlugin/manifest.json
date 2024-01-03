@@ -1,0 +1,111 @@
+{
+	"SDKVersion": 2,
+	"Author": "pozil",
+	"CodePath": "app.html",
+	"Description": "Unofficial Stream Deck plugin for Restream",
+	"Name": "Stream Deck Restream Plugin",
+	"Icon": "icon",
+	"URL": "https://www.elgato.com/en/gaming/stream-deck",
+	"Version": "1.0.2",
+	"Software": {
+		"MinimumVersion": "5.0"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Category": "Restream (Unofficial)",
+	"CategoryIcon": "icon",
+	"Actions": [
+		{
+			"Icon": "actions/toggle-cam/assets/menu-icon",
+			"Name": "Toggle Camera",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-cam/assets/action-active" },
+				{ "Image": "actions/toggle-cam/assets/action-inactive" }
+			],
+			"Tooltip": "Toggles camera in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-cam",
+			"PropertyInspectorPath": "actions/toggle-cam/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/toggle-design/assets/menu-icon",
+			"Name": "Toggle Design",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-design/assets/action-active" },
+				{ "Image": "actions/toggle-design/assets/action-inactive" }
+			],
+			"Tooltip": "Toggles design elements in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-design",
+			"PropertyInspectorPath": "actions/toggle-design/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/toggle-layout/assets/menu-icon",
+			"Name": "Toggle Layout",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-layout/assets/inactive/0" },
+				{ "Image": "actions/toggle-layout/assets/inactive/1" },
+				{ "Image": "actions/toggle-layout/assets/inactive/2" },
+				{ "Image": "actions/toggle-layout/assets/inactive/3" },
+				{ "Image": "actions/toggle-layout/assets/inactive/4" },
+				{ "Image": "actions/toggle-layout/assets/inactive/5" },
+				{ "Image": "actions/toggle-layout/assets/active/0" },
+				{ "Image": "actions/toggle-layout/assets/active/1" },
+				{ "Image": "actions/toggle-layout/assets/active/2" },
+				{ "Image": "actions/toggle-layout/assets/active/3" },
+				{ "Image": "actions/toggle-layout/assets/active/4" },
+				{ "Image": "actions/toggle-layout/assets/active/5" }
+			],
+			"Tooltip": "Toggles layout in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-layout",
+			"PropertyInspectorPath": "actions/toggle-layout/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/toggle-mic/assets/menu-icon",
+			"Name": "Toggle Microphone",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-mic/assets/action-active" },
+				{ "Image": "actions/toggle-mic/assets/action-inactive" }
+			],
+			"Tooltip": "Toggles microphone in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-mic",
+			"PropertyInspectorPath": "actions/toggle-mic/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/toggle-share-screen/assets/menu-icon",
+			"Name": "Toggle Screen Sharing",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-share-screen/assets/action-active" },
+				{ "Image": "actions/toggle-share-screen/assets/action-inactive" }
+			],
+			"Tooltip": "Toggles screen sharing in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-share-screen",
+			"PropertyInspectorPath": "actions/toggle-share-screen/property-inspector/inspector.html"
+		},
+		{
+			"Icon": "actions/toggle-source/assets/menu-icon",
+			"Name": "Toggle Source",
+			"Controllers": ["Keypad"],
+			"States": [
+				{ "Image": "actions/toggle-source/assets/action-cam-active" },
+				{ "Image": "actions/toggle-source/assets/action-cam-inactive" },
+				{ "Image": "actions/toggle-source/assets/action-screen-active" },
+				{ "Image": "actions/toggle-source/assets/action-screen-inactive" }
+			],
+			"Tooltip": "Toggles stream source in Restream Studio",
+			"UUID": "org.pozil.restream.toggle-source",
+			"PropertyInspectorPath": "actions/toggle-source/property-inspector/inspector.html"
+		}
+	]
+}

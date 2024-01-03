@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta
+          name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>org.pozil.restream.toggle-layout Property Inspector</title>
+    <link rel="stylesheet" href="../../../libs/css/sdpi.css" />
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <form id="property-inspector">
+            <div class="sdpi-item">
+                <div class="sdpi-item-label">Layout</div>
+                <select class="sdpi-item-value select required" name="layoutIndex">
+                    <option value="0">Contain</option>
+                    <option value="1">Cover</option>
+                    <option value="2">Half Screen</option>
+                    <option value="3">Picture-in-Picture</option>
+                    <option value="4">Cinema</option>
+                    <option value="5">Thumbnails</option>
+                </select>
+            </div>
+        </form>
+    </div>
+
+    <div class="sdpi-info-label hidden" style="top: -1000" value=""></div>
+
+    <!-- Stream Deck Libs -->
+    <script src="../../../libs/js/constants.js"></script>
+    <script src="../../../libs/js/prototypes.js"></script>
+    <script src="../../../libs/js/timers.js"></script>
+    <script src="../../../libs/js/utils.js"></script>
+    <script src="../../../libs/js/events.js"></script>
+    <script src="../../../libs/js/api.js"></script>
+    <script src="../../../libs/js/property-inspector.js"></script>
+    <script src="../../../libs/js/dynamic-styles.js"></script>
+
+    <!-- Property Inspector Source -->
+    <script src="inspector.js"></script>
+</body>
+
+</html>

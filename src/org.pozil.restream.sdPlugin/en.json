@@ -1,0 +1,32 @@
+{
+  "Description": "Unofficial Stream Deck plugin for Restream", 
+  "Name": "Restream Streamdeck Plugin", 
+  "Category": "Restream",
+  "org.pozil.restream.toggle-cam": {
+    "Name": "Toggle Camera", 
+    "Tooltip": "Toggles camera in Restream Studio"
+  },
+  "org.pozil.restream.toggle-design": {
+    "Name": "Toggle Design", 
+    "Tooltip": "Toggles design elements in Restream Studio"
+  },
+  "org.pozil.restream.toggle-layout": {
+    "Name": "Toggle Layout", 
+    "Tooltip": "Toggles layout in Restream Studio"
+  },
+  "org.pozil.restream.toggle-mic": {
+    "Name": "Toggle Microphone", 
+    "Tooltip": "Toggles microphone in Restream Studio"
+  },
+  "org.pozil.restream.toggle-share-screen": {
+    "Name": "Toggle Screen Sharing", 
+    "Tooltip": "Toggles screen sharing in Restream Studio"
+  },
+  "org.pozil.restream.toggle-source": {
+    "Name": "Toggle Source", 
+    "Tooltip": "Toggles stream source in Restream Studio"
+  },
+  "Localization": {
+    "More info": "More info"
+  }
+}
