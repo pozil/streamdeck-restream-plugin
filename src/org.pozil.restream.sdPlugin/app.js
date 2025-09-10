@@ -155,6 +155,7 @@ function handleStateUpdate(state) {
 	const {
 		isMicEnabled,
 		isCameraEnabled,
+		isSharingScreen,
 		activeLayoutIndex,
 		sources,
 		activeOverlayIndex,
@@ -165,6 +166,10 @@ function handleStateUpdate(state) {
 	// Cam
 	forActionsOfType(ACTION_TOGGLE_CAM, action => {
 		$SD.setState(action.context, isCameraEnabled ? 0 : 1);
+	});
+	// Screen sharing
+	forActionsOfType(ACTION_TOGGLE_SHARE_SCREEN, action => {
+		$SD.setState(action.context, isSharingScreen ? 0 : 1);
 	});
 	// Layout
 	forActionsOfType(ACTION_TOGGLE_LAYOUT, action => {
