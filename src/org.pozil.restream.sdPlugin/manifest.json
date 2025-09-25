@@ -6,7 +6,7 @@
 	"Name": "Stream Deck Restream Plugin",
 	"Icon": "icon",
 	"URL": "https://www.elgato.com/en/gaming/stream-deck",
-	"Version": "1.1.0",
+	"Version": "1.1.1",
 	"Software": {
 		"MinimumVersion": "5.0"
 	},

@@ -187,7 +187,7 @@ function handleStateUpdate(state) {
 		if (index < sources.length) {
 			const { type, label, isActive } = sources[index];
 			let state = 0;
-			if (type === 'Webcam') {
+			if (type === 'Camera') {
 				state = isActive ? 0 : 1;
 			} else {
 				state = isActive ? 2 : 3;
