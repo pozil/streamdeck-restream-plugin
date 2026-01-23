@@ -1,13 +1,8 @@
-<svg viewBox="-8 -14 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="64" height="36" rx="4" fill="#286FFF"></rect>
-    <rect x="51" y="3" width="10" height="6" rx="1.5" fill="#EBECF0"></rect>
-    <rect x="51" y="3" width="10" height="6" rx="1.5" stroke="#286FFF"></rect>
-    <rect x="51" y="11" width="10" height="6" rx="1.5" fill="#EBECF0"></rect>
-    <rect x="51" y="11" width="10" height="6" rx="1.5" stroke="#286FFF"></rect>
-    <rect x="51" y="19" width="10" height="6" rx="1.5" fill="#EBECF0"></rect>
-    <rect x="51" y="19" width="10" height="6" rx="1.5" stroke="#286FFF"></rect>
-    <rect x="51" y="27" width="10" height="6" rx="1.5" fill="#EBECF0"></rect>
-    <rect x="51" y="27" width="10" height="6" rx="1.5" stroke="#286FFF"></rect>
-    <rect x="3" y="3" width="46" height="30" rx="1.5" fill="#EBECF0"></rect>
-    <rect x="3" y="3" width="46" height="30" rx="1.5" stroke="#286FFF"></rect>
+<svg width="64" height="36" viewBox="-8 -14 80 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <rect width="64" height="36" fill="#286FFF" class="thumbnails_2_right_svg__background" rx="4"></rect>
+    <path fill="#EBECF0"
+        d="M62 16.5a1.5 1.5 0 0 0-1.5-1.5h-7a1.5 1.5 0 0 0-1.5 1.5v3a1.5 1.5 0 0 0 1.5 1.5h7a1.5 1.5 0 0 0 1.5-1.5z"
+        class="thumbnails_2_right_svg__foreground"></path>
+    <rect width="48" height="30" x="2" y="3" fill="#EBECF0"
+        class="thumbnails_2_right_svg__foreground" rx="1.5"></rect>
 </svg>
