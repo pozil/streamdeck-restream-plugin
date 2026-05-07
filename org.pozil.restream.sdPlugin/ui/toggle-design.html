@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Toggle Design Settings</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v4/sdpi-components.js"></script>
+</head>
+
+<body>
+    <sdpi-item label="Item Type">
+        <sdpi-select setting="type" default="overlay" value-type="string">
+            <option value="overlay">Overlay</option>
+            <option value="video">Video Clip</option>
+            <option value="background">Background</option>
+        </sdpi-select>
+    </sdpi-item>
+
+    <sdpi-item label="Item Index">
+        <sdpi-textfield setting="indexString" pattern="\d+" placeholder="Enter a zero-based index" required></sdpi-textfield>
+    </sdpi-item>
+</body>
+
+</html>

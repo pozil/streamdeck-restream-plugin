@@ -1,0 +1,173 @@
+{
+	"Name": "Stream Deck Restream Plugin",
+	"Version": "2.0.0.9",
+	"Author": "Philippe Ozil (pozil)",
+	"Actions": [
+		{
+			"Name": "Toggle Camera",
+			"UUID": "org.pozil.restream.toggle-cam",
+			"Icon": "imgs/actions/toggle-cam/menu-icon",
+			"Tooltip": "Toggles camera in Restream Studio",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-cam/action-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-cam/action-inactive"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Microphone",
+			"UUID": "org.pozil.restream.toggle-mic",
+			"Icon": "imgs/actions/toggle-mic/menu-icon",
+			"Tooltip": "Toggles microphone in Restream Studio",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-mic/action-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-mic/action-inactive"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Screen Sharing",
+			"UUID": "org.pozil.restream.toggle-share-screen",
+			"Icon": "imgs/actions/toggle-share-screen/menu-icon",
+			"Tooltip": "Toggles screen sharing in Restream Studio",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-share-screen/action-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-share-screen/action-inactive"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Design",
+			"UUID": "org.pozil.restream.toggle-design",
+			"Icon": "imgs/actions/toggle-design/menu-icon",
+			"Tooltip": "Toggles design elements in Restream Studio",
+			"PropertyInspectorPath": "ui/toggle-design.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-design/action-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-design/action-inactive"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Layout",
+			"UUID": "org.pozil.restream.toggle-layout",
+			"Icon": "imgs/actions/toggle-layout/menu-icon",
+			"Tooltip": "Toggles layout in Restream Studio",
+			"PropertyInspectorPath": "ui/toggle-layout.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-0"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-1"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-2"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-3"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-4"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/inactive-5"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-0"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-1"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-2"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-3"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-4"
+				},
+				{
+					"Image": "imgs/actions/toggle-layout/active-5"
+				}
+			]
+		},
+		{
+			"Name": "Toggle Source",
+			"UUID": "org.pozil.restream.toggle-source",
+			"Icon": "imgs/actions/toggle-source/menu-icon",
+			"Tooltip": "Toggles stream source in Restream Studio",
+			"PropertyInspectorPath": "ui/toggle-source.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/toggle-source/action-cam-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-source/action-cam-inactive"
+				},
+				{
+					"Image": "imgs/actions/toggle-source/action-screen-active"
+				},
+				{
+					"Image": "imgs/actions/toggle-source/action-screen-inactive"
+				}
+			]
+		}
+	],
+	"Category": "Stream Deck Restream Plugin",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Unofficial Stream Deck plugin for Restream",
+	"Icon": "imgs/plugin/marketplace",
+	"URL": "https://github.com/pozil/streamdeck-restream-plugin",
+	"SDKVersion": 3,
+	"Software": {
+		"MinimumVersion": "7.1"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "24",
+		"Debug": "enabled"
+	},
+	"UUID": "org.pozil.restream"
+}
